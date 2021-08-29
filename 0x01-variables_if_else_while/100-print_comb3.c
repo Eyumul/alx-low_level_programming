@@ -25,7 +25,7 @@ putchar('\n');
 i++;
 j++;
 }
- else
+else
 {
 putchar(44);
 putchar(32);
