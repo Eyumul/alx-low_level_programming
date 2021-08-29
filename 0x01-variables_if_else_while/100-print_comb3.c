@@ -40,6 +40,5 @@ j = 1 + i;
 }
 }
 }
-putchar('\n');
 return (0);
 }
