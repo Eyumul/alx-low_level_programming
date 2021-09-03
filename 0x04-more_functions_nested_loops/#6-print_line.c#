@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ * print_line(int n) - prints form 0 ot 9
+ *
+ * Return: always 0.
+ */
+void print_line(int n)
+{
+  int i;
+for (i = '0'; i <= n; i++)
+{
+printf("_");
+putchar(');
+}
+}
