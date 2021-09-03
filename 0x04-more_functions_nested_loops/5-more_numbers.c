@@ -2,7 +2,6 @@
 #include "main.h"
 /**
  * more_numbers - prints form 0 ot 14
- * @c: prints number from 0 to 14
  *
  * Return: always 0.
  */
