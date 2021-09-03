@@ -20,6 +20,6 @@ for (c = '0'; c <= '4'; c++)
 _putchar('1');
 _putchar(c);
 }
-_putchar('\n');
+printf("\n");
 }
 }
