@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+ * print_last_digit - checks for uppercase letters
+ * @n: character to check
+ *
+ * Return: always 0.
+ */
+int print_last_digit(int n)
+{
+char c[m];
+int m;
+n = c[m];
+return (n);
+}
