@@ -8,18 +8,16 @@
 void more_numbers(void)
 {
 char c;
+char a[21] = "01234567891011121314";
+int j;
 int i;
 for (i = 0; i <= 9; i++)
 {
-for (c = '0'; c <= '9'; c++)
+for (j = 0; j <= 20; j++)
 {
+c = a[j];
 _putchar(c);
 }
-for (c = '0'; c <= '4'; c++)
-{
-_putchar('1');
-_putchar(c);
-}
-printf("\n");
+_putchar('\n');
 }
 }
