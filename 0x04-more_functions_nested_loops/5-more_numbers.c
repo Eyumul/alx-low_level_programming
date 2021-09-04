@@ -13,7 +13,7 @@ int j;
 int i;
 for (i = 0; i <= 9; i++)
 {
-for (j = 0; j <= 20; j++)
+for (j = 0; j < 20; j++)
 {
 c = a[j];
 _putchar(c);
