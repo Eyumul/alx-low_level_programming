@@ -1,0 +1,13 @@
+#include "main.h"
+/**
+ * _abs - checks for uppercase letters
+ * @c: character to check
+ *
+ * Return: always 0.
+ */
+int _abs(int n)
+{
+n *= -1;
+_putchar(n);
+return (0);
+}
