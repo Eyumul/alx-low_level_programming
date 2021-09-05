@@ -45,6 +45,10 @@ if (s0 != 0)
 _putchar('0' + a0);
 if (s1 != 0)
 _putchar('0' + a1);
+print_number2();
+}
+void print_number2(void)
+{
 if (s2 != 0)
 _putchar('0' + a2);
 if (s3 != 0)
