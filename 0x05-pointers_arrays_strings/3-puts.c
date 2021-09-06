@@ -1,14 +1,17 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * swap_int - writes the character c to stdout
- * @a: holds integer
- * @b: holds integer
+ * _puts - prints a string in stdout
+ * @str: string to print
  *
- * Return: On success 1.
+ * Return: void
  */
-void swap_int(int *a, int *b)
+void _puts(char *str)
 {
-int c = *a;
-*a = *b;
-*b = c;
+int i = 0;
+while (*(str + i))
+{
+_putchar(*(str + i));
+i++;
+}
+_putchar('\n');
 }
