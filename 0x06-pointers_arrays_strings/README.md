@@ -1,0 +1,1 @@
+this file contains c programms about c - more pointers, arrays and strings
